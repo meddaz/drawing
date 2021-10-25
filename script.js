@@ -2,13 +2,7 @@ window.addEventListener('load', () => {
     const canvas = document.querySelector('#canvas');
     const context = canvas.getContext('2d');
 const color = document.getElementById('color-picker');
-/*setColor();
-color.addEventListener('input', setColor);
 
-function setColor() {
-	context.style.backgroundColor = color.value;
-context.style.cursor = color.value;
-}*/
     canvas.width = 800;
     canvas.height = 300;
     canvas.style.width = '800px';
